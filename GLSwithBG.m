@@ -2,6 +2,7 @@ clc;
 clear all;
 close all;
 
+figure('Name','TYCS - 582 - Jaisal Shah','NumberTitle','off');
  p = imread('C:\Users\Jaisal Shah\Desktop\TYCS-582\College-Stuff\Sem VI\DIP\Practicals\raw.png');
  p1 = rgb2gray(p);
  subplot(1,2,1);

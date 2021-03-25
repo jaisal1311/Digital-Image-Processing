@@ -1,7 +1,7 @@
 close all;
 clear all;
 clc;
-
+figure('Name','TYCS - 582 - Jaisal Shah','NumberTitle','off')
 a=imread('C:\Users\Jaisal Shah\Desktop\TYCS-582\College-Stuff\Sem VI\DIP\Practicals\raw.png');
 a1 = double(a);
 a2 = rgb2gray(uint8(a1));
